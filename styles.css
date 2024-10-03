@@ -1,0 +1,54 @@
+/*styles*/
+
+body {
+    background-color: bisque;
+    color: #744719;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 100%;
+}
+h2 {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 64px 0;
+    background-color: blanchedalmond;
+    /*padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;*/
+    padding: 16px;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 16px;
+}
+
+a {
+    color: #744719;
+    text-decoration: none;
+    border: 1px solid #744719;
+    border-radius: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: bisque;
+    background-color: #744719;
+}
+
+.center-style {
+    display: block;
+    text-align: center;
+}
+
+ul{
+    font-weight: 500;
+}
